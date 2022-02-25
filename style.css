@@ -2,6 +2,14 @@ body {
     background-color: #0d2d57;
     font-family: 'Roboto', sans-serif;    
 }
+.home-page-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    top: 0;
+}
 .home-page-main-container {
     color: #af2102;
     padding: 33% 15% 33% 15%;
@@ -9,13 +17,17 @@ body {
     flex-direction: column;
 }
 #home-page-main-title {
-    color: #e9421d;
-    margin-top: 0px;
+    color: #f0c3b9;
+    margin: 0px 0px 15px 0px;
     font-size: 50px;
 }
 #home-page-introduction {
     margin: 10px 0px 0px 0px;
     font-size: 13px;
+    color: #e9421d;
+}
+#home-page-main-position {
+    margin-top: 0px;
 }
 #home-page-blurb {
     font-size: 14px;
