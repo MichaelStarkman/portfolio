@@ -1,0 +1,30 @@
+body {
+    background-color: #0d2d57;
+    font-family: 'Roboto', sans-serif;
+    padding: 3% 10% 10% 10%;
+    border: 1px solid #af2102;
+}
+#about-me-header-title {
+    font-size: 50px;
+    color: #f0c3b9;
+    margin-bottom: 5%;
+}
+.about-me-content {
+    color: #e9421d;
+    font-size: 14px;
+    margin-top: 0%;
+}
+.about-me-content-list-container {
+    display: flex;
+}
+.about-me-content-title{
+    color: #f0c3b9;
+    display: flex;
+    font-size: 24px;
+    margin: 0 0 10px -35px;
+}
+.about-me-content-list {
+    color: #e9421d;
+    list-style-type: none;
+    font-size: 13px;
+}

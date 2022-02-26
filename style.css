@@ -14,6 +14,9 @@ a {
     height: 60px;
     top: 0;
 }
+.home-page-home-button-container {
+    position: absolute;
+}
 .home-page-nav {
     display: flex;
     align-items: center;
@@ -30,14 +33,22 @@ a {
     transition: 0.4s ease-in-out;
     width: 45px;
     border: 2px solid #e9421d;
+    display: flex;
+    justify-content: center;
+    background-color: #0d2d57;
+
 }
   
-.airbnb-button:hover {
+.home-page-home-button:hover {
     background-color: #e00007;
 }
 
 .home-page-menu {
     height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
  }
 .home-page-hamburger {
     display: -ms-grid;
@@ -45,8 +56,7 @@ a {
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     z-index: 120;
-    height: 45px;
-    margin: 10px;
+    justify-content: end;
 }
 .home-page-hamburger div {
     background-color: #e9421d;
@@ -81,17 +91,15 @@ margin-top: -5px;
     height: 340px;
 }
 .home-page-menu-drop-down {
-    width: 100%;
+    width: 100% !important;
     background-color: #02173F;
     margin: 0;
-    display: -ms-grid;
     display: grid;
     grid-template-rows: 1fr repeat(4, 0.5fr);
     grid-row-gap: 25px;
     padding: 0;
     list-style: none;
     clear: both;
-    width: auto;
     text-align: center;
     height: 0px;
     overflow: hidden;
