@@ -1,0 +1,42 @@
+body {
+    background-color: #0d2d57;
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
+    border: 1px solid #af2102;
+    padding: 3%;
+}
+.resume-title {
+    font-size: 50px;
+    color: #f0c3b9;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+.resume-content-container {
+    display: flex;
+    flex-direction: column;
+}
+.resume-content-container-job {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 10px solid #0d2d57;
+
+}
+
+.icon-image {
+    width: 80px;
+    height: 80px;
+}
+.resume-job-container {
+    margin: 3%;
+}
+.resume-content-container-job-title {
+    color: #e9421d;
+    margin-bottom: 0%;
+    font-size: 22px;
+}
+.resume-content-container-job-description {
+    color: #af2102;
+    margin-top: 0%;
+    font-size: 15px;
+}

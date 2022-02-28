@@ -1,11 +1,12 @@
 body {
     background-color: #0d2d57;
-    font-family: 'Roboto', sans-serif;overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch;
     height: 100%;    
 }
 a {
-    color: hotpink;
+    color: #e9421d;
 }
 .home-page-header {
     align-items: center;
