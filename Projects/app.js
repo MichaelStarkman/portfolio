@@ -3,8 +3,13 @@ const displayProjectTextOne = () => {
 }
 $(document).ready(function() {
     $('#project-title-one').on('click', displayProjectTextOne);
+    $("#project-text-one").toggle();
 });
-
+$(document).ready(function() {
+    $('#project-title-one').click(function(){
+    $("#project-text-one").toggle();
+    });
+});
 const displayProjectTextTwo = () => {
     $("#project-text-two").attr("class", "test-class-project")
 }
