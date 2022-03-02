@@ -22,7 +22,7 @@ a {
     display: flex;
     align-items: center;
     position: relative;
-    width: 350px;
+    width: 100%;
     justify-content: space-between;
 }
 .home-page-home-button {
@@ -82,32 +82,13 @@ a {
     transform: rotate(180deg);
 }
   
-/* #toggle1:checked ~ .home-page-menu-drop-down {
-    height: 500px;
-    width: 250px;
-} */
-/* .home-page-menu-drop-down {
-    width: 100% !important;
-    background-color: #02173F;
-    margin: 0;
-    display: grid;
-    grid-template-rows: 1fr repeat(4, 0.5fr);
-    grid-row-gap: 25px;
-    padding: 0;
-    list-style: none;
-    clear: both;
-    text-align: center;
-    height: 0px;
-    overflow: hidden;
-    z-index: 10;
-    transition: all 0.4s ease; */
-/* } */
-#home-page-menu-dd{
+
+.home-page-menu-drop-down {
     display: none;
 }
 .test-class {
     display: grid;
-    width: 100% !important;
+    width: 250px;
     background-color: #02173F;
     margin: 0;
     grid-template-rows: 1fr repeat(4, 0.5fr);
@@ -116,19 +97,11 @@ a {
     list-style: none;
     clear: both;
     text-align: center;
-    height: 0px;
+    height: 500px;
     overflow: hidden;
     z-index: 10;
-    transition: all 0.4s ease; 
 }  
-/* .home-page-menu-drop-down a:first-child {
-    margin-top: 40px;
-}
-  
-.home-page-menu-drop-down a:last-child {
-    margin-bottom: 40px;
-}
-   */
+
 .link1 {
     width: 100%;
     margin: 0;
@@ -139,8 +112,6 @@ a {
 .link1:hover {
     background-color: #fff;
     color: rgb(61, 61, 61);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 .home-page-main-container {
     color: #af2102;
