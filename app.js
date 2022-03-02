@@ -1,4 +1,6 @@
-const homePageButton = document.getElementById("home-page-home-button");
-function userClicksHome() {
-    document.location="https://michaelstarkman.netlify.app/"
+const displayDropDown = () => {
+    $("#home-page-menu-dd").attr("class", "test-class")
 }
+$(document).ready(function() {
+    $('#navbar').on('click', displayDropDown);
+});

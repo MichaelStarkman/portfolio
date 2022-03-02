@@ -16,12 +16,19 @@ body {
     font-size: 28px;
 }
 .projects-container {
-display: flex;
+display: grid;
+grid-template-columns: 1fr;
 justify-content: space-between;
 flex-direction: column;
 padding: 0;
 gap: 25px;
 }
+@media (min-width: 500px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 .project {
     list-style: none;
     border: 1px dashed #af2102;
@@ -29,8 +36,13 @@ gap: 25px;
 }
 .project-title {
     color: #f0c3b9;
+    cursor: pointer;
 }
 .project-text {
+    display: none;
+}
+.test-class-project {
+    display: block;
     color: #af2102;
 }
 .project-button-container {

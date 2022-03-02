@@ -19,10 +19,17 @@ body {
     display: flex;
     align-items: center;
     background-color: white;
-    border: 10px solid #0d2d57;
-
+    flex-direction: column;
 }
-
+.accordion-content {
+    display: none;
+}
+.test-class {
+    display: block;
+}
+.test-remove {
+    display: none;
+}
 .icon-image {
     width: 80px;
     height: 80px;

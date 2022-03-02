@@ -41,7 +41,7 @@ a {
 }
   
 .home-page-home-button:hover {
-    background-color: #e00007;
+    cursor: pointer;
 }
 
 .home-page-menu {
@@ -52,11 +52,10 @@ a {
     display: flex;
  }
 .home-page-hamburger {
-    display: -ms-grid;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
-    z-index: 120;
+    z-index: 10;
     justify-content: end;
 }
 .home-page-hamburger div {
@@ -72,26 +71,22 @@ a {
   }
   
 #toggle1:checked + .home-page-hamburger .row1 {
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-margin-top: 22.5px;
+    transform: rotate(180deg);
 }
   
 #toggle1:checked + .home-page-hamburger .row2 {
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-margin-top: -5px;
+    transform: rotate(180deg);
 }
   
 #toggle1:checked + .home-page-hamburger .row3 {
-    -webkit-transform: scale(0);
-    transform: scale(0);
+    transform: rotate(180deg);
 }
   
-#toggle1:checked ~ .home-page-menu-drop-down {
-    height: 340px;
-}
-.home-page-menu-drop-down {
+/* #toggle1:checked ~ .home-page-menu-drop-down {
+    height: 500px;
+    width: 250px;
+} */
+/* .home-page-menu-drop-down {
     width: 100% !important;
     background-color: #02173F;
     margin: 0;
@@ -104,20 +99,36 @@ margin-top: -5px;
     text-align: center;
     height: 0px;
     overflow: hidden;
-    transition: height .4s ease;
-    z-index: 120;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    z-index: 10;
+    transition: all 0.4s ease; */
+/* } */
+#home-page-menu-dd{
+    display: none;
 }
-  
-.home-page-menu-drop-down a:first-child {
+.test-class {
+    display: grid;
+    width: 100% !important;
+    background-color: #02173F;
+    margin: 0;
+    grid-template-rows: 1fr repeat(4, 0.5fr);
+    grid-row-gap: 25px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+    z-index: 10;
+    transition: all 0.4s ease; 
+}  
+/* .home-page-menu-drop-down a:first-child {
     margin-top: 40px;
 }
   
 .home-page-menu-drop-down a:last-child {
     margin-bottom: 40px;
 }
-  
+   */
 .link1 {
     width: 100%;
     margin: 0;

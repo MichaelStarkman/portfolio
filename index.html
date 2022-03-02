@@ -6,8 +6,13 @@
         <title>Michael Starkman</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     </head>
     <body>
         <header class="home-page-header">
@@ -18,13 +23,13 @@
                 <div class="home-page-menu">
                     <nav id="navbar" class="navigation" role="navigation">
                       <input id="toggle1" type="checkbox" />
-                      <label class="home-page-hamburger" for="toggle1">
+                      <label class="home-page-hamburger" id="hp-ham" for="toggle1">
                         <div class="row1"></div>
                         <div class="row2"></div>
                         <div class="row3"></div>
                       </label>
                     
-                      <nav class="home-page-menu-drop-down">
+                      <nav class="home-page-menu-drop-down" id="home-page-menu-dd">
                         <a class="link1" href="">About Me</a>
                         <a class="link1" href="">Experience</a>
                         <a class="link1" href="">Projects</a>
