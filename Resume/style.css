@@ -5,6 +5,136 @@ body {
     border: 1px solid #af2102;
     padding: 3%;
 }
+a {
+    color: #e9421d;
+}
+.home-page-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    top: 0;
+}
+.home-page-home-button-container {
+    position: absolute;
+}
+.home-page-nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+.home-page-home-button {
+    padding: 10px 15px;
+    width: 50px;
+    cursor: pointer;
+    color: #e9421d;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    width: 45px;
+    border: 2px solid #e9421d;
+    display: flex;
+    justify-content: center;
+    background-color: #0d2d57;
+
+}
+  
+.home-page-home-button:hover {
+    cursor: pointer;
+}
+
+.home-page-menu {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+ }
+.home-page-hamburger {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    z-index: 10;
+    justify-content: end;
+}
+.home-page-hamburger div {
+    background-color: #e9421d;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    margin-top: 7px;
+    transition: all 0.4s ease-in-out;
+}
+#toggle1 {
+    display: none;
+  }
+  
+#toggle1:checked + .home-page-hamburger .row1 {
+    transform: rotate(180deg);
+}
+  
+#toggle1:checked + .home-page-hamburger .row2 {
+    transform: rotate(180deg);
+}
+  
+#toggle1:checked + .home-page-hamburger .row3 {
+    transform: rotate(180deg);
+}
+  
+
+.home-page-menu-drop-down {
+    display: none;
+}
+.test-class-two {
+    display: grid;
+    width: 250px;
+    background-color: #02173F;
+    margin: 0;
+    grid-template-rows: 1fr repeat(4, 0.5fr);
+    grid-row-gap: 25px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    text-align: center;
+    height: 500px;
+    overflow: hidden;
+    z-index: 10;
+}  
+
+.link1 {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    font: 700 20px 'Oswald', sans-serif;
+}
+  
+.link1:hover {
+    background-color: #fff;
+    color: rgb(61, 61, 61);
+}
+.home-page-main-container {
+    color: #af2102;
+    padding: 33% 15% 33% 15%;
+    display: flex;
+    flex-direction: column;
+}
+#home-page-main-title {
+    color: #f0c3b9;
+    margin: 0px 0px 15px 0px;
+    font-size: 50px;
+}
+#home-page-introduction {
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+    color: #e9421d;
+}
+#home-page-main-position {
+    margin-top: 0px;
+}
+#home-page-blurb {
+    font-size: 14px;
+}
 .resume-title {
     font-size: 50px;
     color: #f0c3b9;

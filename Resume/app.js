@@ -29,3 +29,14 @@ const displayAccordion3 = () => {
 $(document).ready(function() {
     $('#accordion-title-container3').on('mouseover', displayAccordion3);
 });
+const displayDropDown = () => {
+    $("#home-page-menu-dd").attr("class", "test-class-two")
+}
+$(document).ready(function() {
+    $('#hp-ham').on('click', displayDropDown);
+});
+ $(document).ready(function(){
+    $("#hp-ham").click(function(){
+      $("#home-page-menu-dd").toggle();
+    });
+  });
