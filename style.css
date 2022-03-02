@@ -116,20 +116,46 @@ a {
     padding: 33% 15% 33% 15%;
     display: flex;
     flex-direction: column;
+    border: 1px solid #e9421d;
+}
+@media (min-width: 500px) {
+    .home-page-main-container {
+        padding: 15% 15% 5% 15%;
+    }
 }
 #home-page-main-title {
     color: #f0c3b9;
     margin: 0px 0px 15px 0px;
     font-size: 50px;
 }
+@media (min-width: 500px) {
+    #home-page-main-title {
+        font-size: 90px;
+    }
+}
 #home-page-introduction {
     margin: 10px 0px 0px 0px;
     font-size: 13px;
     color: #e9421d;
 }
+@media (min-width: 500px) {
+    #home-page-introduction {
+        font-size: 20px;
+    }
+}
 #home-page-main-position {
     margin-top: 0px;
 }
+@media (min-width: 500px) {
+    #home-page-main-position {
+        font-size: 45px;
+    }
+}
 #home-page-blurb {
     font-size: 14px;
+}
+@media (min-width: 500px) {
+    #home-page-blurb {
+        font-size: 26px;
+    }
 }
